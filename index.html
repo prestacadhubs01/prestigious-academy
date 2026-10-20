@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestigious Academy Hubs Intl Ltd | Empowering Academic Excellence & Practical Skills</title>
+  
+  <!-- Inter & Outfit Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Outfit', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              navy: '#0B192C',
+              navyLight: '#1E3E62',
+              navySlate: '#15253b',
+              blue: '#0066FF',
+              blueHover: '#0052cc',
+              gold: '#F59E0B',
+              goldDark: '#D97706',
+              surface: '#F8FAFC'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Smooth Utilities & Glassmorphism */
+    .glass-header {
+      background: rgba(11, 25, 44, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+    .gradient-hero {
+      background: radial-gradient(circle at 75% 20%, rgba(0, 102, 255, 0.18) 0%, rgba(11, 25, 44, 0) 65%),
+                  radial-gradient(circle at 15% 80%, rgba(217, 119, 6, 0.14) 0%, rgba(11, 25, 44, 0) 60%),
+                  #0B192C;
+    }
+    .badge-amber {
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+    }
+    .badge-royal {
+      background: linear-gradient(135deg, #0066FF 0%, #004ecc 100%);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-brand-surface text-slate-800 font-sans antialiased selection:bg-brand-blue selection:text-white">
+
+  <!-- ======================== 1. TOP ANNOUNCEMENT BAR ======================== -->
+  <div class="bg-brand-navy border-b border-slate-800/80 text-xs text-slate-300 py-2.5 px-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+      <!-- Announcement Message -->
+      <div class="flex items-center space-x-2">
+        <span class="inline-flex items-center justify-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/20 text-brand-gold border border-amber-500/30">
+          ADMISSIONS OPEN
+        </span>
+        <span class="text-slate-300 truncate">WAEC/NECO & JAMB-UTME Intensive Batches + Digital ICT Academy</span>
+      </div>
+
+      <!-- Quick Action Contacts -->
+      <div class="flex items-center space-x-4 text-[11px] sm:text-xs">
+        <div class="flex items-center space-x-3 text-slate-300">
+          <span class="text-slate-400 hidden lg:inline">Hotlines:</span>
+          <a href="tel:08036035769" class="hover:text-brand-gold font-medium flex items-center gap-1 transition-colors">
+            <i class="fa-solid fa-phone text-[10px] text-brand-gold"></i> 08036035769
+          </a>
+          <span class="text-slate-600">&bull;</span>
+          <a href="tel:08037767340" class="hover:text-brand-gold font-medium flex items-center gap-1 transition-colors">
+            <i class="fa-solid fa-phone text-[10px] text-brand-gold"></i> 08037767340
+          </a>
+        </div>
+        <div class="hidden sm:flex items-center space-x-3 border-l border-slate-700 pl-4">
+          <a href="mailto:prestacadhubs@gmail.com" class="hover:text-brand-gold transition-colors flex items-center gap-1">
+            <i class="fa-solid fa-envelope text-blue-400"></i> prestacadhubs@gmail.com
+          </a>
+          <a href="https://wa.me/2348036035769?text=Hello%20Prestigious%20Academy%20Hubs,%20I%20would%20like%20to%20inquire%20about%20your%20services" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">
+            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 2. STICKY MODERN NAVBAR ======================== -->
+  <header class="sticky top-[41px] z-40 glass-header border-b border-slate-800 transition-all duration-300 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo & Brand Identity -->
+        <a href="#home" class="flex items-center space-x-3.5 group">
+          <div class="w-11 h-11 rounded-2xl badge-amber flex items-center justify-center text-brand-navy shadow-md shadow-amber-500/25 group-hover:scale-105 transition-transform">
+            <i class="fa-solid fa-graduation-cap text-2xl"></i>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-heading font-extrabold text-base sm:text-lg text-white tracking-tight leading-tight">
+              PRESTIGIOUS <span class="text-brand-gold">ACADEMY</span>
+            </span>
+            <span class="text-[9px] sm:text-[10px] tracking-widest text-slate-400 font-bold uppercase">
+              HUBS INTL LTD
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-slate-300">
+          <a href="#services" class="hover:text-brand-gold transition-colors">Courses & Services</a>
+          <a href="#curriculum" class="hover:text-brand-gold transition-colors">Curriculum</a>
+          <a href="#calculator" class="hover:text-brand-gold transition-colors">Tuition Estimator</a>
+          <a href="#why-us" class="hover:text-brand-gold transition-colors">Why Choose Us</a>
+          <a href="#testimonials" class="hover:text-brand-gold transition-colors">Testimonials</a>
+          <a href="#contact" class="hover:text-brand-gold transition-colors">Contact</a>
+        </nav>
+
+        <!-- CTA Header Buttons -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <a href="https://wa.me/2348036035769?text=Hello%2C%20I%20am%20interested%20in%20enrolling%20at%20Prestigious%20Academy%20Hubs." target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl border border-emerald-500/60 bg-emerald-950/40 text-emerald-400 text-xs font-semibold hover:bg-emerald-500 hover:text-white transition-all flex items-center gap-1.5 shadow-sm">
+            <i class="fa-brands fa-whatsapp text-sm"></i>
+            <span>Instant Chat</span>
+          </a>
+          <a href="#contact" class="px-5 py-2.5 rounded-xl badge-royal text-white text-xs font-bold hover:shadow-lg hover:shadow-blue-500/30 active:scale-95 transition-all flex items-center gap-2">
+            <span>Enroll Now</span>
+            <i class="fa-solid fa-arrow-right text-[11px]"></i>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobileMenuBtn" aria-label="Toggle Navigation Menu" class="lg:hidden text-slate-300 hover:text-white p-2 rounded-lg border border-slate-700 bg-slate-800/60 focus:outline-none">
+          <i id="menuIcon" class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-brand-navy border-b border-slate-800 px-5 pt-3 pb-6 space-y-3">
+      <a href="#services" class="mobile-link block text-slate-300 hover:text-brand-gold py-2 font-medium border-b border-slate-800">Courses & Services</a>
+      <a href="#curriculum" class="mobile-link block text-slate-300 hover:text-brand-gold py-2 font-medium border-b border-slate-800">Curriculum</a>
+      <a href="#calculator" class="mobile-link block text-slate-300 hover:text-brand-gold py-2 font-medium border-b border-slate-800">Tuition Estimator</a>
+      <a href="#why-us" class="mobile-link block text-slate-300 hover:text-brand-gold py-2 font-medium border-b border-slate-800">Why Us</a>
+      <a href="#testimonials" class="mobile-link block text-slate-300 hover:text-brand-gold py-2 font-medium border-b border-slate-800">Testimonials</a>
+      <a href="#contact" class="mobile-link block text-slate-300 hover:text-brand-gold py-2 font-medium">Contact & Location</a>
+      <div class="pt-3 grid grid-cols-2 gap-2">
+        <a href="https://wa.me/2348036035769" target="_blank" rel="noopener noreferrer" class="py-2.5 rounded-xl border border-emerald-500 text-emerald-400 text-xs font-semibold text-center flex items-center justify-center gap-1.5">
+          <i class="fa-brands fa-whatsapp"></i> Line 1
+        </a>
+        <a href="https://wa.me/2348037767340" target="_blank" rel="noopener noreferrer" class="py-2.5 rounded-xl border border-emerald-500 text-emerald-400 text-xs font-semibold text-center flex items-center justify-center gap-1.5">
+          <i class="fa-brands fa-whatsapp"></i> Line 2
+        </a>
+      </div>
+      <a href="#contact" class="mobile-link block w-full py-3 rounded-xl badge-royal text-white text-xs font-bold text-center mt-2">
+        Enroll Now & Get Assessment
+      </a>
+    </div>
+  </header>
+
+  <!-- ======================== 3. HERO SECTION ======================== -->
+  <section id="home" class="relative text-white pt-14 pb-24 lg:pt-20 lg:pb-32 gradient-hero overflow-hidden border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left Hero Text -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/90 border border-slate-700 text-brand-gold text-xs font-semibold">
+            <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+            Premier Educational Hub & Digital Skills Institute
+          </div>
+
+          <h1 class="font-heading text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight sm:leading-tight">
+            Empowering <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-amber-300">Academic Excellence</span> & Practical Skills.
+          </h1>
+
+          <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+            Prestigious Academy Hubs Intl Ltd provides result-driven exam preparation for WAEC, NECO & JAMB-UTME, alongside hands-on digital ICT bootcamps and personalized private home tutoring.
+          </p>
+
+          <!-- Dual Call to Actions -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#services" class="w-full sm:w-auto px-7 py-3.5 rounded-xl badge-royal font-bold text-white shadow-xl shadow-blue-600/30 hover:scale-[1.02] active:scale-95 transition-all text-center flex items-center justify-center gap-2">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Explore Courses</span>
+            </a>
+            <a href="https://wa.me/2348036035769?text=Hello%20Prestigious%20Academy%20Hubs,%20I%20am%20interested%20in%20your%20coaching%20programs." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-slate-800/90 border border-emerald-500/50 hover:bg-emerald-950/40 text-emerald-400 font-semibold transition-all text-center flex items-center justify-center gap-2">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges & Contact verification line -->
+          <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-slate-300">
+            <span class="inline-flex items-center gap-1.5 bg-slate-800/70 px-3 py-1.5 rounded-lg border border-slate-700">
+              <i class="fa-solid fa-certificate text-brand-gold"></i> Registered Academy
+            </span>
+            <span class="inline-flex items-center gap-1.5 bg-slate-800/70 px-3 py-1.5 rounded-lg border border-slate-700">
+              <i class="fa-solid fa-laptop-code text-blue-400"></i> Modern CBT Software Drill
+            </span>
+            <span class="inline-flex items-center gap-1.5 bg-slate-800/70 px-3 py-1.5 rounded-lg border border-slate-700">
+              <i class="fa-solid fa-shield-halved text-emerald-400"></i> 1-on-1 Mentorship
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Hero Floating Statistics Cards -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md bg-gradient-to-br from-brand-navySlate to-slate-900/95 border border-slate-700/80 p-6 sm:p-7 rounded-3xl shadow-2xl backdrop-blur-xl">
+            
+            <div class="flex items-center justify-between pb-5 border-b border-slate-700/80">
+              <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-blue-500/20 text-brand-blue flex items-center justify-center text-lg">
+                  <i class="fa-solid fa-award"></i>
+                </div>
+                <div>
+                  <h3 class="text-white font-heading font-bold text-sm">Hub Performance Record</h3>
+                  <p class="text-[11px] text-slate-400">Academic & Digital Training Track</p>
+                </div>
+              </div>
+              <span class="px-2.5 py-1 rounded-full badge-amber text-brand-navy text-[10px] font-extrabold uppercase">
+                Verified
+              </span>
+            </div>
+
+            <!-- 4 Metric Cards Grid -->
+            <div class="grid grid-cols-2 gap-3.5 my-6">
+              <!-- Metric 1 -->
+              <div class="p-4 rounded-2xl bg-slate-800/70 border border-slate-700/60 hover:border-amber-400/50 transition-colors">
+                <div class="flex items-center gap-2 text-brand-gold mb-1">
+                  <i class="fa-solid fa-users text-sm"></i>
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Mentored</span>
+                </div>
+                <div class="font-heading font-extrabold text-2xl sm:text-3xl text-white counter" data-target="1200">0</div>
+                <p class="text-[11px] text-slate-400 mt-0.5">Students Mentored</p>
+              </div>
+
+              <!-- Metric 2 -->
+              <div class="p-4 rounded-2xl bg-slate-800/70 border border-slate-700/60 hover:border-blue-400/50 transition-colors">
+                <div class="flex items-center gap-2 text-blue-400 mb-1">
+                  <i class="fa-solid fa-chart-line text-sm"></i>
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Success</span>
+                </div>
+                <div class="font-heading font-extrabold text-2xl sm:text-3xl text-white counter" data-target="98">0</div>
+                <p class="text-[11px] text-slate-400 mt-0.5">% Exam Pass Rate</p>
+              </div>
+
+              <!-- Metric 3 -->
+              <div class="p-4 rounded-2xl bg-slate-800/70 border border-slate-700/60 hover:border-emerald-400/50 transition-colors">
+                <div class="flex items-center gap-2 text-emerald-400 mb-1">
+                  <i class="fa-solid fa-book-bookmark text-sm"></i>
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Curricula</span>
+                </div>
+                <div class="font-heading font-extrabold text-2xl sm:text-3xl text-white counter" data-target="15">0</div>
+                <p class="text-[11px] text-slate-400 mt-0.5">Core Course Modules</p>
+              </div>
+
+              <!-- Metric 4 -->
+              <div class="p-4 rounded-2xl bg-slate-800/70 border border-slate-700/60 hover:border-purple-400/50 transition-colors">
+                <div class="flex items-center gap-2 text-purple-400 mb-1">
+                  <i class="fa-solid fa-user-tie text-sm"></i>
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Quality</span>
+                </div>
+                <div class="font-heading font-extrabold text-2xl sm:text-3xl text-white counter" data-target="100">0</div>
+                <p class="text-[11px] text-slate-400 mt-0.5">% Certified Mentors</p>
+              </div>
+            </div>
+
+            <!-- Quick Hotlines Direct Pill inside card -->
+            <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-between text-xs">
+              <span class="text-slate-400 flex items-center gap-1.5">
+                <i class="fa-solid fa-phone-volume text-brand-gold"></i> Fast Assistance:
+              </span>
+              <div class="flex items-center gap-2 font-mono font-semibold text-white">
+                <a href="tel:08036035769" class="hover:text-brand-gold">08036035769</a> | 
+                <a href="tel:08037767340" class="hover:text-brand-gold">08037767340</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== 4. INTERACTIVE SERVICES & COURSES HUB ======================== -->
+  <section id="services" class="py-20 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-brand-blue font-bold text-xs uppercase tracking-widest bg-blue-50 border border-blue-200 px-3 py-1 rounded-full">
+          Academic & Technical Programs
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-brand-navy mt-3">
+          Explore Our Targeted Coaching Pathways
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          Select a category below to filter our programs. Every track combines in-depth theoretical drills with practical simulations.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-10" id="courseFilters">
+        <button data-filter="all" class="course-filter-btn px-5 py-2.5 rounded-xl text-xs font-semibold bg-brand-navy text-white shadow transition-all">
+          All Courses
+        </button>
+        <button data-filter="exam-prep" class="course-filter-btn px-5 py-2.5 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 transition-all">
+          Secondary & Board Exams (WAEC / NECO / JAMB-UTME)
+        </button>
+        <button data-filter="ict-skills" class="course-filter-btn px-5 py-2.5 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 transition-all">
+          ICT & Computer Skills
+        </button>
+        <button data-filter="stem-math" class="course-filter-btn px-5 py-2.5 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 transition-all">
+          STEM Foundations (Math, Physics, Chem)
+        </button>
+        <button data-filter="private-tutoring" class="course-filter-btn px-5 py-2.5 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 transition-all">
+          Private 1-on-1 Mentorship
+        </button>
+      </div>
+
+      <!-- Course Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="courseGrid">
+        
+        <!-- Course 1: WAEC / NECO Masterclass -->
+        <div class="course-card bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between" data-category="exam-prep">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <div class="w-13 h-13 w-12 h-12 rounded-2xl bg-blue-50 text-brand-blue flex items-center justify-center text-xl">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-md bg-blue-100 text-brand-blue font-bold text-[11px] uppercase">
+                Board Exams
+              </span>
+            </div>
+            
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">WAEC, NECO & GCE Comprehensive</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+              Targeted syllabus coverage for Science, Commercial, and Arts candidates with weekly marking-scheme drills and past question analyses.
+            </p>
+
+            <div class="space-y-2 mb-6 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <i class="fa-regular fa-clock text-brand-gold"></i>
+                <span><strong>Duration:</strong> 3 – 6 Months Cohorts</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-chalkboard-user text-brand-blue"></i>
+                <span><strong>Mode:</strong> In-Person, Live Virtual & Hybrid</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                <span>Science Practical Lab sessions included</span>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="openCurriculumModal('waec-neco')" class="w-full py-3 rounded-xl border border-brand-blue text-brand-blue font-bold text-xs hover:bg-brand-blue hover:text-white transition-all flex items-center justify-center gap-2">
+            <span>View Curriculum & Modules</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- Course 2: JAMB-UTME CBT Drill -->
+        <div class="course-card bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between" data-category="exam-prep">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <div class="w-12 h-12 rounded-2xl bg-amber-50 text-brand-goldDark flex items-center justify-center text-xl">
+                <i class="fa-solid fa-computer"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-md bg-amber-100 text-amber-800 font-bold text-[11px] uppercase">
+                Target 280+
+              </span>
+            </div>
+            
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">JAMB / UTME CBT Speed Drill</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+              Master speed, accuracy, and syllabus question patterns with daily drills in our specialized Computer-Based Test (CBT) facility.
+            </p>
+
+            <div class="space-y-2 mb-6 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <i class="fa-regular fa-clock text-brand-gold"></i>
+                <span><strong>Duration:</strong> 8 to 16 Weeks Intensive</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-chalkboard-user text-brand-blue"></i>
+                <span><strong>Mode:</strong> In-Person Lab & Online Mock Portal</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                <span>Novels breakdown & admission score advisory</span>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="openCurriculumModal('jamb-utme')" class="w-full py-3 rounded-xl border border-amber-600 text-amber-600 font-bold text-xs hover:bg-amber-600 hover:text-white transition-all flex items-center justify-center gap-2">
+            <span>View Curriculum & Modules</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- Course 3: Digital Literacy & MS Office -->
+        <div class="course-card bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between" data-category="ict-skills">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl">
+                <i class="fa-solid fa-file-excel"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-md bg-emerald-100 text-emerald-800 font-bold text-[11px] uppercase">
+                Workforce Ready
+              </span>
+            </div>
+            
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Computer Literacy & MS Office Suite</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+              Essential office computer skills covering Word processing, financial and data formulas in Excel, PowerPoint presentations, and internet productivity.
+            </p>
+
+            <div class="space-y-2 mb-6 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <i class="fa-regular fa-clock text-brand-gold"></i>
+                <span><strong>Duration:</strong> 6 to 8 Weeks Hands-on</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-chalkboard-user text-brand-blue"></i>
+                <span><strong>Mode:</strong> In-Person Hub (1 Student, 1 PC)</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                <span>Accredited certificate on completion</span>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="openCurriculumModal('computer-literacy')" class="w-full py-3 rounded-xl border border-emerald-600 text-emerald-600 font-bold text-xs hover:bg-emerald-600 hover:text-white transition-all flex items-center justify-center gap-2">
+            <span>View Curriculum & Modules</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- Course 4: Coding Basics & Web Design -->
+        <div class="course-card bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between" data-category="ict-skills">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <div class="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center text-xl">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-md bg-purple-100 text-purple-800 font-bold text-[11px] uppercase">
+                Tech Career
+              </span>
+            </div>
+            
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Web Design & Coding Foundations</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+              Step into software development. Learn HTML5, modern CSS3 layout styling, responsive layouts, basic JavaScript, and live site deployment.
+            </p>
+
+            <div class="space-y-2 mb-6 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <i class="fa-regular fa-clock text-brand-gold"></i>
+                <span><strong>Duration:</strong> 10 – 12 Weeks (Project-Based)</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-chalkboard-user text-brand-blue"></i>
+                <span><strong>Mode:</strong> Physical Lab & Live Virtual Sessions</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                <span>Build 3 real portfolio websites</span>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="openCurriculumModal('web-design')" class="w-full py-3 rounded-xl border border-purple-600 text-purple-600 font-bold text-xs hover:bg-purple-600 hover:text-white transition-all flex items-center justify-center gap-2">
+            <span>View Curriculum & Modules</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- Course 5: STEM Foundations (Math, Physics, Chem) -->
+        <div class="course-card bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between" data-category="stem-math">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <div class="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center text-xl">
+                <i class="fa-solid fa-atom"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-md bg-sky-100 text-sky-800 font-bold text-[11px] uppercase">
+                Sciences
+              </span>
+            </div>
+            
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">STEM Foundations (Math & Sciences)</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+              Simplifying Pure Mathematics, Calculus, Organic Chemistry, and Physics principles for secondary students and 100-Level undergraduates.
+            </p>
+
+            <div class="space-y-2 mb-6 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <i class="fa-regular fa-clock text-brand-gold"></i>
+                <span><strong>Duration:</strong> Ongoing / Term-Based</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-chalkboard-user text-brand-blue"></i>
+                <span><strong>Mode:</strong> Small Focus Groups (Max 10)</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                <span>Step-by-step problem dissection clinics</span>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="openCurriculumModal('stem-math')" class="w-full py-3 rounded-xl border border-sky-600 text-sky-600 font-bold text-xs hover:bg-sky-600 hover:text-white transition-all flex items-center justify-center gap-2">
+            <span>View Curriculum & Modules</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+        <!-- Course 6: Private 1-on-1 Mentorship -->
+        <div class="course-card bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between" data-category="private-tutoring">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl">
+                <i class="fa-solid fa-user-shield"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-md bg-rose-100 text-rose-800 font-bold text-[11px] uppercase">
+                Personalized
+              </span>
+            </div>
+            
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Private 1-on-1 Home & Virtual Tutoring</h3>
+            <p class="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+              Bespoke academic support tailored strictly to the learner's schedule, strengths, and weaknesses with handpicked, verified teachers.
+            </p>
+
+            <div class="space-y-2 mb-6 text-xs text-slate-600">
+              <div class="flex items-center gap-2">
+                <i class="fa-regular fa-clock text-brand-gold"></i>
+                <span><strong>Duration:</strong> Monthly Flexible Retainer</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-chalkboard-user text-brand-blue"></i>
+                <span><strong>Mode:</strong> Home Visit or 1-on-1 Interactive Whiteboard</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                <span>Bi-weekly parental evaluation reports</span>
+              </div>
+            </div>
+          </div>
+
+          <button onclick="openCurriculumModal('private-mentorship')" class="w-full py-3 rounded-xl border border-rose-600 text-rose-600 font-bold text-xs hover:bg-rose-600 hover:text-white transition-all flex items-center justify-center gap-2">
+            <span>View Curriculum & Modules</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== 5. INTERACTIVE TUITION FEE ESTIMATOR ======================== -->
+  <section id="calculator" class="py-20 bg-brand-navy text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Explainer -->
+        <div class="lg:col-span-5 space-y-5">
+          <div class="inline-flex items-center gap-2 text-brand-gold font-bold text-xs uppercase tracking-widest">
+            <i class="fa-solid fa-calculator"></i> Transparent Tuition Calculator
+          </div>
+          
+          <h2 class="font-heading text-3xl sm:text-4xl font-extrabold leading-tight">
+            Calculate Your Tuition & Package Rates in Real-Time.
+          </h2>
+
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Choose your preferred track, format, and study length to see estimated investment costs in Nigerian Naira (NGN). We offer flexible multi-installment payment options for parents and students.
+          </p>
+
+          <div class="p-4 rounded-2xl bg-brand-navySlate border border-slate-700/80 space-y-2 text-xs text-slate-300">
+            <div class="flex items-center gap-2 text-emerald-400 font-semibold">
+              <i class="fa-solid fa-tag"></i> 10% Multi-Month / Sibling Discount Active
+            </div>
+            <p>Includes past question archives, practice CBT tokens, and personalized diagnostic assessments.</p>
+          </div>
+        </div>
+
+        <!-- Right Interactive Calculator Card -->
+        <div class="lg:col-span-7">
+          <div class="bg-brand-navySlate/95 border border-slate-700/80 p-6 sm:p-8 rounded-3xl shadow-2xl backdrop-blur-md">
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6">
+              
+              <!-- 1. Track Choice -->
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Program Track</label>
+                <select id="calcTrack" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-blue">
+                  <option value="waec" data-base="35000">WAEC / NECO Comprehensive (₦35,000/mo base)</option>
+                  <option value="jamb" data-base="30000">JAMB-UTME Speed Drill (₦30,000/mo base)</option>
+                  <option value="ict" data-base="45000">ICT & MS Office Literacy (₦45,000 base)</option>
+                  <option value="web" data-base="55000">Coding Basics & Web Design (₦55,000 base)</option>
+                  <option value="stem" data-base="38000">STEM Foundations (₦38,000/mo base)</option>
+                  <option value="private" data-base="70000">Private 1-on-1 Mentorship (₦70,000/mo base)</option>
+                </select>
+              </div>
+
+              <!-- 2. Mode Choice -->
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Delivery Mode</label>
+                <select id="calcMode" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-blue">
+                  <option value="physical" data-factor="1.0">In-Person at Academy Hub (Physical)</option>
+                  <option value="online" data-factor="0.85">Live Virtual Classroom (15% Off)</option>
+                  <option value="hybrid" data-factor="1.12">Hybrid (Physical Lab + Virtual Backup)</option>
+                </select>
+              </div>
+
+              <!-- 3. Duration Choice -->
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Duration / Commitment Period</label>
+                <select id="calcDuration" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-blue">
+                  <option value="1">1 Month (Monthly Trial / Diagnostic Review)</option>
+                  <option value="3" selected>Full Term / 3 Months (Standard Complete Pathway - Save 10%)</option>
+                  <option value="6">Intensive Bootcamp / 6 Months (Mastery Track - Save 15%)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Estimated Output Result -->
+            <div class="p-6 rounded-2xl bg-brand-navy border border-slate-700 flex flex-col sm:flex-row items-center justify-between gap-5">
+              <div>
+                <span class="text-xs text-slate-400 uppercase tracking-wider block font-semibold">Total Estimated Investment</span>
+                <div class="flex items-baseline gap-2 mt-1">
+                  <span id="calculatedAmount" class="font-heading text-3xl sm:text-4xl font-extrabold text-brand-gold">₦94,500</span>
+                  <span class="text-xs text-slate-400">NGN</span>
+                </div>
+                <span id="discountTag" class="text-xs text-emerald-400 font-semibold block mt-1">
+                  <i class="fa-solid fa-check"></i> 10% Term Discount Applied
+                </span>
+              </div>
+
+              <button onclick="applyEstimateToEnrollment()" class="w-full sm:w-auto px-6 py-3.5 rounded-xl badge-royal text-white text-xs font-bold shadow-lg hover:shadow-blue-500/30 transition-all flex items-center justify-center gap-2">
+                <span>Proceed with this Selection</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== 6. WHY CHOOSE US / THE ACADEMY ADVANTAGE ======================== -->
+  <section id="why-us" class="py-20 lg:py-28 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-brand-blue font-bold text-xs uppercase tracking-widest bg-blue-50 border border-blue-200 px-3 py-1 rounded-full">
+          The Academy Advantage
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-brand-navy mt-3">
+          Why Families & Students Trust Prestigious Academy Hubs
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          We combine time-tested academic discipline with modern learning methodologies to ensure exceptional student outcomes.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Advantage 1 -->
+        <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 hover:border-brand-blue hover:shadow-lg transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-blue-100 text-brand-blue flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-user-graduate"></i>
+          </div>
+          <h3 class="font-heading font-bold text-base text-slate-900 mb-2">Experienced & Certified Tutors</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Our educators possess deep subject matter expertise, WAEC/JAMB exam board familiarity, and proven teaching mastery.
+          </p>
+        </div>
+
+        <!-- Advantage 2 -->
+        <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 hover:border-brand-gold hover:shadow-lg transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="font-heading font-bold text-base text-slate-900 mb-2">CBT Software Simulation</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Students practice with authentic JAMB-modeled Computer-Based Test simulation tools to build speed and eliminate examination anxiety.
+          </p>
+        </div>
+
+        <!-- Advantage 3 -->
+        <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-people-roof"></i>
+          </div>
+          <h3 class="font-heading font-bold text-base text-slate-900 mb-2">Small Batch Focus</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            We cap classroom sizes so every student gets individual attention, questions answered promptly, and tailored academic guidance.
+          </p>
+        </div>
+
+        <!-- Advantage 4 -->
+        <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 hover:border-purple-500 hover:shadow-lg transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-purple-100 text-purple-700 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+          </div>
+          <h3 class="font-heading font-bold text-base text-slate-900 mb-2">Flexible Evening & Weekend Batches</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Schedules crafted for secondary school students, working professionals, and private weekend scholars.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== 7. STUDENT & PARENT TESTIMONIALS ======================== -->
+  <section id="testimonials" class="py-20 bg-slate-100/70 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-brand-blue font-bold text-xs uppercase tracking-widest bg-blue-50 border border-blue-200 px-3 py-1 rounded-full">
+          Voices of Success
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-brand-navy mt-3">
+          What Parents & Students Say About Our Hub
+        </h2>
+        <p class="text-slate-600 text-sm mt-2">
+          Genuine feedback from candidates who achieved their target scores and digital skill milestones with us.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Review 1 -->
+        <div class="bg-white p-7 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-brand-gold text-xs gap-1 mb-3">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 italic leading-relaxed mb-6">
+              "The JAMB-UTME CBT speed drills were a game changer. I used to struggle with time during the mock exams. With the academy's software practice and formulas clinic, I scored 312 and got admission into UNILAG!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <div class="w-10 h-10 rounded-full bg-blue-100 text-brand-blue flex items-center justify-center font-bold text-xs">
+              EO
+            </div>
+            <div>
+              <h4 class="font-heading font-bold text-slate-900 text-xs sm:text-sm">Emmanuel Okon</h4>
+              <p class="text-[11px] text-slate-500">JAMB-UTME Candidate (Score: 312)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-white p-7 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-brand-gold text-xs gap-1 mb-3">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 italic leading-relaxed mb-6">
+              "As a working parent, the weekly progress reports and dedicated private tutor from Prestigious Academy gave me peace of mind. My daughter cleared all 9 WAEC subjects with 6 A1s. I am deeply thankful."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <div class="w-10 h-10 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xs">
+              FA
+            </div>
+            <div>
+              <h4 class="font-heading font-bold text-slate-900 text-xs sm:text-sm">Mrs. Folashade Adeleke</h4>
+              <p class="text-[11px] text-slate-500">Parent of WAEC Scholar</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-white p-7 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-brand-gold text-xs gap-1 mb-3">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 italic leading-relaxed mb-6">
+              "I enrolled for the Computer Literacy & Web Basics class during holiday break. The workstation environment is 1-student-to-1-computer. I designed my own landing page and now manage spreadsheets effortlessly."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xs">
+              CI
+            </div>
+            <div>
+              <h4 class="font-heading font-bold text-slate-900 text-xs sm:text-sm">Chinedu Ibe</h4>
+              <p class="text-[11px] text-slate-500">ICT & Web Cohort Graduate</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== 8. INTERACTIVE ENROLLMENT & INQUIRY FORM ======================== -->
+  <section id="contact" class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Contact Information & Channels -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-2 text-brand-blue font-bold text-xs uppercase tracking-widest bg-blue-50 border border-blue-200 px-3 py-1 rounded-full">
+            <i class="fa-solid fa-address-book"></i> Connect Directly
+          </div>
+
+          <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight leading-tight">
+            Ready to Begin? Let's Plan Your Academic Success.
+          </h2>
+
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Fill in the enrollment inquiry form. Upon submission, you will also be able to directly forward your application to our coordinators on WhatsApp for priority processing.
+          </p>
+
+          <!-- Contact Cards -->
+          <div class="space-y-4 pt-2">
+            
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-10 h-10 rounded-xl bg-blue-100 text-brand-blue flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-slate-900 text-xs sm:text-sm">Phone Lines (Direct Calls)</h4>
+                <div class="flex flex-wrap gap-2 text-xs font-semibold text-brand-blue mt-0.5">
+                  <a href="tel:08036035769" class="hover:underline">08036035769</a>
+                  <span>&bull;</span>
+                  <a href="tel:08037767340" class="hover:underline">08037767340</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-slate-900 text-xs sm:text-sm">Official WhatsApp Desks</h4>
+                <div class="flex flex-wrap gap-2 text-xs font-semibold text-emerald-600 mt-0.5">
+                  <a href="https://wa.me/2348036035769" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp 1 (08036035769)</a>
+                  <span>&bull;</span>
+                  <a href="https://wa.me/2348037767340" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp 2 (08037767340)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-slate-900 text-xs sm:text-sm">Official Email</h4>
+                <a href="mailto:prestacadhubs@gmail.com" class="text-xs font-semibold text-slate-700 hover:text-brand-blue mt-0.5 block">
+                  prestacadhubs@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+              <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-slate-900 text-xs sm:text-sm">Classroom & Office Hours</h4>
+                <p class="text-xs text-slate-600">Mon - Fri: 8:00 AM – 6:30 PM</p>
+                <p class="text-xs text-slate-600">Sat (Weekend Batches): 9:00 AM – 4:00 PM</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Enrollment Form Box -->
+        <div class="lg:col-span-7">
+          <div class="bg-slate-50 border border-slate-200/90 rounded-3xl p-6 sm:p-10 shadow-sm relative">
+            <h3 class="font-heading text-xl sm:text-2xl font-bold text-slate-900 mb-2">
+              Student Enrollment & Inquiry Form
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-500 mb-6">
+              Complete your information to register or request a call from our admission team.
+            </p>
+
+            <form id="enrollmentForm" onsubmit="processEnrollmentSubmit(event)" class="space-y-4">
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1.5">Full Name *</label>
+                  <input type="text" id="formFullName" required placeholder="e.g. Samuel Adekunle" class="w-full bg-white border border-slate-300 rounded-xl px-4 py-3 text-xs sm:text-sm focus:outline-none focus:border-brand-blue transition-colors">
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1.5">Phone / WhatsApp Number *</label>
+                  <input type="tel" id="formPhone" required placeholder="e.g. 08036035769" class="w-full bg-white border border-slate-300 rounded-xl px-4 py-3 text-xs sm:text-sm focus:outline-none focus:border-brand-blue transition-colors">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1.5">Email Address</label>
+                  <input type="email" id="formEmail" placeholder="e.g. student@gmail.com" class="w-full bg-white border border-slate-300 rounded-xl px-4 py-3 text-xs sm:text-sm focus:outline-none focus:border-brand-blue transition-colors">
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1.5">Program of Interest *</label>
+                  <select id="formProgramSelect" required class="w-full bg-white border border-slate-300 rounded-xl px-4 py-3 text-xs sm:text-sm focus:outline-none focus:border-brand-blue transition-colors">
+                    <option value="">Select a Program</option>
+                    <option value="WAEC / NECO / GCE Comprehensive">WAEC / NECO / GCE Comprehensive</option>
+                    <option value="JAMB / UTME CBT Speed Drill">JAMB / UTME CBT Speed Drill</option>
+                    <option value="ICT & Computer Literacy (MS Office)">ICT & Computer Literacy (MS Office)</option>
+                    <option value="Coding Basics & Web Design">Coding Basics & Web Design</option>
+                    <option value="STEM Foundations (Math, Physics, Chem)">STEM Foundations (Math, Physics, Chem)</option>
+                    <option value="Private 1-on-1 Mentorship">Private 1-on-1 Mentorship</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1.5">Preferred Mode of Learning</label>
+                <div class="grid grid-cols-3 gap-2 text-xs">
+                  <label class="border border-slate-300 rounded-xl p-2.5 flex items-center justify-center gap-2 cursor-pointer has-[:checked]:border-brand-blue has-[:checked]:bg-blue-50/70">
+                    <input type="radio" name="formMode" value="Physical Classroom" checked class="text-brand-blue">
+                    <span>Physical Hub</span>
+                  </label>
+                  <label class="border border-slate-300 rounded-xl p-2.5 flex items-center justify-center gap-2 cursor-pointer has-[:checked]:border-brand-blue has-[:checked]:bg-blue-50/70">
+                    <input type="radio" name="formMode" value="Live Virtual" class="text-brand-blue">
+                    <span>Live Virtual</span>
+                  </label>
+                  <label class="border border-slate-300 rounded-xl p-2.5 flex items-center justify-center gap-2 cursor-pointer has-[:checked]:border-brand-blue has-[:checked]:bg-blue-50/70">
+                    <input type="radio" name="formMode" value="Hybrid / Home Tutor" class="text-brand-blue">
+                    <span>Hybrid / Home</span>
+                  </label>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1.5">Message / Specific Target (Optional)</label>
+                <textarea id="formMessage" rows="3" placeholder="Tell us about specific subjects or targets (e.g. 'Aiming for 300+ in JAMB' or 'Need weekend Excel training')..." class="w-full bg-white border border-slate-300 rounded-xl px-4 py-2.5 text-xs sm:text-sm focus:outline-none focus:border-brand-blue transition-colors"></textarea>
+              </div>
+
+              <!-- Submit button -->
+              <button type="submit" class="w-full py-3.5 rounded-xl badge-royal text-white font-bold text-sm hover:shadow-lg hover:shadow-blue-500/25 transition-all flex items-center justify-center gap-2">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Submit Enrollment Inquiry</span>
+              </button>
+            </form>
+
+            <!-- Success State Box with instant WhatsApp link -->
+            <div id="formSuccessBox" class="hidden mt-5 p-5 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-950 text-xs sm:text-sm space-y-3">
+              <div class="flex items-center gap-2 font-bold text-emerald-800">
+                <i class="fa-solid fa-circle-check text-lg"></i>
+                <span>Inquiry Registered Successfully!</span>
+              </div>
+              <p class="text-emerald-800">
+                Thank you! We have received your inquiry. For immediate confirmation and instant timetable access, click below to open your chat with our coordinator on WhatsApp:
+              </p>
+              <a id="whatsappDispatchBtn" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow transition-colors">
+                <i class="fa-brands fa-whatsapp text-sm"></i>
+                <span>Proceed to WhatsApp Confirmation</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== 9. FOOTER ======================== -->
+  <footer class="bg-brand-navy text-slate-300 pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-12 border-b border-slate-800">
+        
+        <!-- Brand Info -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl badge-amber flex items-center justify-center text-brand-navy font-bold">
+              <i class="fa-solid fa-graduation-cap text-lg"></i>
+            </div>
+            <div>
+              <span class="font-heading font-extrabold text-white text-base tracking-tight block">
+                PRESTIGIOUS ACADEMY HUBS
+              </span>
+              <span class="text-[9px] text-slate-400 font-semibold tracking-wider uppercase block">
+                INTERNATIONAL LIMITED
+              </span>
+            </div>
+          </div>
+
+          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Fostering academic excellence, disciplined examination mastery, and practical digital competence through world-class educators and modern facilities.
+          </p>
+
+          <div class="flex items-center space-x-3 pt-2">
+            <a href="https://wa.me/2348036035769" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Line 1" class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-emerald-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors">
+              <i class="fa-brands fa-whatsapp text-sm"></i>
+            </a>
+            <a href="tel:08036035769" aria-label="Direct Phone Line" class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-brand-blue flex items-center justify-center text-slate-300 hover:text-white transition-colors">
+              <i class="fa-solid fa-phone text-xs"></i>
+            </a>
+            <a href="mailto:prestacadhubs@gmail.com" aria-label="Email Us" class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-blue-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors">
+              <i class="fa-solid fa-envelope text-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-heading font-bold text-white text-xs uppercase tracking-wider mb-4">Quick Navigation</h4>
+          <ul class="space-y-2.5 text-xs text-slate-400">
+            <li><a href="#home" class="hover:text-brand-gold transition-colors">Home Overview</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">All Courses</a></li>
+            <li><a href="#calculator" class="hover:text-brand-gold transition-colors">Tuition Fee Calculator</a></li>
+            <li><a href="#why-us" class="hover:text-brand-gold transition-colors">Why Choose Us</a></li>
+            <li><a href="#testimonials" class="hover:text-brand-gold transition-colors">Student Reviews</a></li>
+            <li><a href="#contact" class="hover:text-brand-gold transition-colors">Enroll Today</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs List -->
+        <div>
+          <h4 class="font-heading font-bold text-white text-xs uppercase tracking-wider mb-4">Our Core Tracks</h4>
+          <ul class="space-y-2.5 text-xs text-slate-400">
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">WAEC / NECO / GCE Prep</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">JAMB-UTME CBT Clinic</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">Computer Literacy (MS Office)</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">Web Design & Coding</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">STEM Pure Sciences Clinic</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition-colors">Private Home Mentorship</a></li>
+          </ul>
+        </div>
+
+        <!-- Verified Contacts -->
+        <div>
+          <h4 class="font-heading font-bold text-white text-xs uppercase tracking-wider mb-4">Verified Contacts</h4>
+          <div class="space-y-2.5 text-xs text-slate-400">
+            <p><span class="text-slate-300 font-semibold block">Phone / WhatsApp:</span>
+              <a href="tel:08036035769" class="hover:text-brand-gold">08036035769</a>, <a href="tel:08037767340" class="hover:text-brand-gold">08037767340</a>
+            </p>
+            <p><span class="text-slate-300 font-semibold block">Email:</span>
+              <a href="mailto:prestacadhubs@gmail.com" class="hover:text-brand-gold text-blue-400">prestacadhubs@gmail.com</a>
+            </p>
+            <p><span class="text-slate-300 font-semibold block">Office Schedule:</span>
+              Mon - Sat (Regular & Weekend Batches)
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Copyright Line -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy; <span id="currentYear"></span> Prestigious Academy Hubs Intl Ltd. All Rights Reserved.</p>
+        <div class="flex items-center space-x-6">
+          <a href="#services" class="hover:text-slate-400 transition-colors">Programs</a>
+          <a href="#calculator" class="hover:text-slate-400 transition-colors">Tuition</a>
+          <a href="#contact" class="hover:text-slate-400 transition-colors">Inquiries</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================== 10. STICKY FLOATING WHATSAPP PILL BUTTON ======================== -->
+  <div class="fixed bottom-6 right-6 z-50 flex items-center space-x-2">
+    <a href="https://wa.me/2348036035769?text=Hello%20Prestigious%20Academy%20Hubs,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" 
+       class="flex items-center gap-2.5 bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-3 rounded-full shadow-2xl shadow-emerald-500/40 hover:scale-105 active:scale-95 transition-all">
+      <i class="fa-brands fa-whatsapp text-2xl"></i>
+      <span class="text-xs font-bold tracking-wide hidden sm:inline">Chat on WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- ======================== 11. INTERACTIVE CURRICULUM MODAL ======================== -->
+  <div id="curriculumModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-900/80 backdrop-blur-sm transition-opacity">
+    <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+      
+      <!-- Modal Header -->
+      <div class="p-6 bg-brand-navy text-white flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-xl bg-blue-600/30 text-blue-400 flex items-center justify-center text-lg">
+            <i id="modalIcon" class="fa-solid fa-book-open"></i>
+          </div>
+          <div>
+            <h3 id="modalTitle" class="font-heading font-bold text-lg leading-snug">Course Syllabus</h3>
+            <span id="modalTrack" class="text-xs text-brand-gold font-medium">Curriculum Overview</span>
+          </div>
+        </div>
+        <button onclick="closeCurriculumModal()" aria-label="Close dialog" class="w-8 h-8 rounded-full bg-slate-800 text-slate-300 hover:text-white flex items-center justify-center transition-colors">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-6 overflow-y-auto space-y-5 custom-scrollbar text-slate-700 text-xs sm:text-sm">
+        <div>
+          <h4 class="font-heading font-bold text-slate-900 text-xs uppercase tracking-wider mb-1">Course Description</h4>
+          <p id="modalDescription" class="text-slate-600 leading-relaxed"></p>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-slate-900 text-xs uppercase tracking-wider mb-2">Modules Covered</h4>
+          <ul id="modalModules" class="space-y-2 text-slate-600"></ul>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+          <div>
+            <span class="text-[10px] text-slate-400 uppercase font-bold block">Delivery Format</span>
+            <span id="modalMode" class="text-xs font-semibold text-slate-800">Physical & Virtual</span>
+          </div>
+          <div>
+            <span class="text-[10px] text-slate-400 uppercase font-bold block">Duration</span>
+            <span id="modalDuration" class="text-xs font-semibold text-slate-800">Standard Cohort</span>
+          </div>
+        </div>
+
+        <!-- Pre-filled Enroll Action -->
+        <div class="p-4 rounded-2xl bg-blue-50 border border-blue-200 flex items-center justify-between">
+          <div>
+            <p class="font-bold text-brand-navy text-xs">Ready to join this track?</p>
+            <p class="text-[11px] text-slate-600">We'll pre-fill your selection in the enrollment form.</p>
+          </div>
+          <button onclick="prefillEnrollmentFromModal()" class="px-4 py-2 rounded-xl badge-royal text-white font-bold text-xs shadow hover:shadow-md transition-all">
+            Enroll in This Course
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-slate-200 bg-slate-50 flex justify-end">
+        <button onclick="closeCurriculumModal()" class="px-5 py-2 rounded-xl border border-slate-300 text-slate-700 font-semibold text-xs hover:bg-slate-200 transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 12. JAVASCRIPT INTERACTIONS ======================== -->
+  <script>
+    // 1. Dynamic Year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // 2. Mobile Menu Navigation
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      if (isHidden) {
+        mobileMenu.classList.remove('hidden');
+        menuIcon.classList.replace('fa-bars', 'fa-xmark');
+      } else {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.replace('fa-xmark', 'fa-bars');
+      }
+    });
+
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.replace('fa-xmark', 'fa-bars');
+      });
+    });
+
+    // 3. Counter Animation
+    const counters = document.querySelectorAll('.counter');
+    let hasAnimatedCounters = false;
+
+    const runCounters = () => {
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        let current = 0;
+        const increment = Math.ceil(target / 50);
+
+        const tick = () => {
+          current += increment;
+          if (current >= target) {
+            counter.innerText = target + (target > 50 && target < 100 ? '%' : '+');
+          } else {
+            counter.innerText = current + (target > 50 && target < 100 ? '%' : '+');
+            requestAnimationFrame(tick);
+          }
+        };
+        tick();
+      });
+    };
+
+    const heroSection = document.getElementById('home');
+    const heroObserver = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !hasAnimatedCounters) {
+        hasAnimatedCounters = true;
+        runCounters();
+      }
+    }, { threshold: 0.25 });
+    if (heroSection) heroObserver.observe(heroSection);
+
+    // 4. Interactive Course Category Filtering
+    const filterBtns = document.querySelectorAll('.course-filter-btn');
+    const courseCards = document.querySelectorAll('.course-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-brand-navy', 'text-white');
+          b.classList.add('bg-white', 'text-slate-700');
+        });
+        btn.classList.add('bg-brand-navy', 'text-white');
+        btn.classList.remove('bg-white', 'text-slate-700');
+
+        const cat = btn.getAttribute('data-filter');
+        courseCards.forEach(card => {
+          if (cat === 'all' || card.getAttribute('data-category') === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 5. Course Syllabus Data Dictionary & Modal
+    const courseData = {
+      'waec-neco': {
+        title: "WAEC, NECO & GCE Comprehensive Clinic",
+        track: "Secondary School Examination Preparation",
+        icon: "fa-graduation-cap",
+        formSelectVal: "WAEC / NECO / GCE Comprehensive",
+        description: "An intensive clinic crafted to transition students into top-tier performers across Science, Commercial, and Art disciplines with structured past questions dissecting.",
+        modules: [
+          "General Mathematics, English Language, core Sciences (Phy, Chem, Bio) & Arts / Commercial subjects",
+          "Marking scheme breakdown to prevent avoidable marks deductions",
+          "Comprehensive laboratory practical prep for science students",
+          "Weekly timed mock exams mimicking real test conditions"
+        ],
+        mode: "Physical Classroom & Live Virtual Sessions",
+        duration: "3 to 6 Months Cohorts"
+      },
+      'jamb-utme': {
+        title: "JAMB / UTME 280+ High-Score Drill",
+        track: "Tertiary Admissions Preparation",
+        icon: "fa-computer",
+        formSelectVal: "JAMB / UTME CBT Speed Drill",
+        description: "Engineered specifically for students targeting competitive admissions in Medicine, Law, Engineering, and Computer Science using authentic simulation tools.",
+        modules: [
+          "Daily Computer-Based Test (CBT) speed drills in software lab",
+          "Quantitative shortcuts and time-saving calculation tips",
+          "Scene-by-scene analysis of prescribed novel reading texts",
+          "Admissions cutoff and course combo advisory"
+        ],
+        mode: "CBT Computer Laboratory & Online Practice Portal",
+        duration: "8 to 16 Weeks Intensive"
+      },
+      'computer-literacy': {
+        title: "Computer Literacy & Microsoft Office Suite",
+        track: "Digital Skills & Workforce Readiness",
+        icon: "fa-file-excel",
+        formSelectVal: "ICT & Computer Literacy (MS Office)",
+        description: "Hands-on workstation training designed for beginners, secondary school graduates, and professionals needing real computer competence.",
+        modules: [
+          "Computer components, operating systems & fast touch-typing",
+          "Microsoft Word: Document layouts, academic formatting & templates",
+          "Microsoft Excel: Formulas (SUM, VLOOKUP, IF), tables & charts",
+          "PowerPoint & Google Workspace for presentations and cloud collaboration"
+        ],
+        mode: "In-Person Hub (1 Student to 1 PC)",
+        duration: "6 to 8 Weeks"
+      },
+      'web-design': {
+        title: "Web Design & Coding Foundations",
+        track: "Tech Career Pathway",
+        icon: "fa-code",
+        formSelectVal: "Coding Basics & Web Design",
+        description: "Launch into programming by designing and launching functional websites using industry standard modern web standards.",
+        modules: [
+          "HTML5 semantic structures and clean code principles",
+          "CSS3 layout systems: Flexbox, CSS Grid & modern responsive design",
+          "Basic JavaScript interactions, DOM manipulation & events",
+          "Deploying and hosting live portfolio sites to the web"
+        ],
+        mode: "Physical Lab & Live Virtual Sessions",
+        duration: "10 to 12 Weeks"
+      },
+      'stem-math': {
+        title: "STEM Foundations (Mathematics, Physics & Chemistry)",
+        track: "Pure Sciences Clinic",
+        icon: "fa-atom",
+        formSelectVal: "STEM Foundations (Math, Physics, Chem)",
+        description: "Demystifying abstract calculations and scientific concepts through intuitive models and hands-on derivations.",
+        modules: [
+          "Pure Mathematics: Advanced Algebra, Calculus, Trigonometry & Coordinate Geometry",
+          "Physics: Mechanics, Waves, Electromagnetism & Electronics calculations",
+          "Chemistry: Stoichiometry, Organic synthesis & Ionic equilibria",
+          "100-Level undergraduate foundational support"
+        ],
+        mode: "Small Focus Groups (Max 10)",
+        duration: "Ongoing / Term-Based"
+      },
+      'private-mentorship': {
+        title: "Private 1-on-1 Home & Virtual Mentorship",
+        track: "Bespoke Tutoring",
+        icon: "fa-user-shield",
+        formSelectVal: "Private 1-on-1 Mentorship",
+        description: "Dedicated one-on-one academic instruction tailored to the exact strengths, weaknesses, and timetable of the learner.",
+        modules: [
+          "Initial diagnostic assessment to identify academic weak points",
+          "Personalized study calendar aligned with the student's school curriculum",
+          "Bi-weekly detailed parental monitoring and test evaluation reports",
+          "Homework mentorship and exam confidence coaching"
+        ],
+        mode: "Home Visits or 1-on-1 Virtual Whiteboard",
+        duration: "Monthly Flexible Retainer"
+      }
+    };
+
+    let selectedProgramFromModal = "";
+
+    function openCurriculumModal(key) {
+      const course = courseData[key];
+      if (!course) return;
+
+      selectedProgramFromModal = course.formSelectVal;
+      document.getElementById('modalTitle').textContent = course.title;
+      document.getElementById('modalTrack').textContent = course.track;
+      document.getElementById('modalDescription').textContent = course.description;
+      document.getElementById('modalMode').textContent = course.mode;
+      document.getElementById('modalDuration').textContent = course.duration;
+
+      const iconElem = document.getElementById('modalIcon');
+      iconElem.className = `fa-solid ${course.icon}`;
+
+      const modulesList = document.getElementById('modalModules');
+      modulesList.innerHTML = '';
+      course.modules.forEach(mod => {
+        const li = document.createElement('li');
+        li.className = "flex items-start gap-2";
+        li.innerHTML = `<i class="fa-solid fa-circle-check text-brand-blue text-xs mt-1 shrink-0"></i><span>${mod}</span>`;
+        modulesList.appendChild(li);
+      });
+
+      document.getElementById('curriculumModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCurriculumModal() {
+      document.getElementById('curriculumModal').classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+
+    function prefillEnrollmentFromModal() {
+      closeCurriculumModal();
+      if (selectedProgramFromModal) {
+        document.getElementById('formProgramSelect').value = selectedProgramFromModal;
+      }
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeCurriculumModal();
+    });
+
+    // 6. Real-Time Tuition Fee Estimator Logic
+    const calcTrack = document.getElementById('calcTrack');
+    const calcMode = document.getElementById('calcMode');
+    const calcDuration = document.getElementById('calcDuration');
+    const calculatedAmount = document.getElementById('calculatedAmount');
+    const discountTag = document.getElementById('discountTag');
+
+    function calculateTuition() {
+      const selectedTrackOpt = calcTrack.options[calcTrack.selectedIndex];
+      const selectedModeOpt = calcMode.options[calcMode.selectedIndex];
+
+      const baseFee = parseFloat(selectedTrackOpt.getAttribute('data-base')) || 35000;
+      const factor = parseFloat(selectedModeOpt.getAttribute('data-factor')) || 1.0;
+      const duration = parseInt(calcDuration.value) || 1;
+
+      let subtotal = baseFee * factor;
+
+      if (duration === 3) {
+        subtotal = subtotal * 2.7; // 10% multi-month discount
+        discountTag.innerHTML = '<i class="fa-solid fa-check"></i> 10% Term Discount Applied';
+      } else if (duration === 6) {
+        subtotal = subtotal * 5.1; // 15% bootcamp discount
+        discountTag.innerHTML = '<i class="fa-solid fa-check"></i> 15% Intensive Bootcamp Discount Applied';
+      } else {
+        discountTag.innerHTML = '<i class="fa-solid fa-info-circle"></i> Standard 1-Month Diagnostic Rate';
+      }
+
+      calculatedAmount.textContent = '₦' + Math.round(subtotal).toLocaleString();
+    }
+
+    [calcTrack, calcMode, calcDuration].forEach(el => el.addEventListener('change', calculateTuition));
+    calculateTuition();
+
+    function applyEstimateToEnrollment() {
+      const trackVal = calcTrack.value;
+      const programSelect = document.getElementById('formProgramSelect');
+      
+      const mapping = {
+        'waec': 'WAEC / NECO / GCE Comprehensive',
+        'jamb': 'JAMB / UTME CBT Speed Drill',
+        'ict': 'ICT & Computer Literacy (MS Office)',
+        'web': 'Coding Basics & Web Design',
+        'stem': 'STEM Foundations (Math, Physics, Chem)',
+        'private': 'Private 1-on-1 Mentorship'
+      };
+
+      if (mapping[trackVal]) {
+        programSelect.value = mapping[trackVal];
+      }
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // 7. Enrollment Form Submission & WhatsApp Forwarding Dispatch
+    function processEnrollmentSubmit(e) {
+      e.preventDefault();
+
+      const fullName = document.getElementById('formFullName').value.trim();
+      const phone = document.getElementById('formPhone').value.trim();
+      const email = document.getElementById('formEmail').value.trim() || 'Not specified';
+      const program = document.getElementById('formProgramSelect').value;
+      const mode = document.querySelector('input[name="formMode"]:checked')?.value || 'Physical Classroom';
+      const notes = document.getElementById('formMessage').value.trim() || 'None';
+
+      // Build WhatsApp message URL
+      const whatsappText = `*New Enrollment Inquiry - Prestigious Academy Hubs Intl Ltd*%0A%0A` +
+        `*Name:* ${encodeURIComponent(fullName)}%0A` +
+        `*Phone:* ${encodeURIComponent(phone)}%0A` +
+        `*Email:* ${encodeURIComponent(email)}%0A` +
+        `*Program:* ${encodeURIComponent(program)}%0A` +
+        `*Mode:* ${encodeURIComponent(mode)}%0A` +
+        `*Notes:* ${encodeURIComponent(notes)}`;
+
+      const dispatchUrl = `https://wa.me/2348036035769?text=${whatsappText}`;
+
+      // Update button & reveal success box
+      const dispatchBtn = document.getElementById('whatsappDispatchBtn');
+      dispatchBtn.href = dispatchUrl;
+
+      const successBox = document.getElementById('formSuccessBox');
+      successBox.classList.remove('hidden');
+      successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  </script>
+</body>
+</html>
